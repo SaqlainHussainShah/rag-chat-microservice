@@ -53,7 +53,7 @@ Docker installed on your machine
     VECTOR_STORE_DIR=faiss_index
 
 ### Project Structure
-.
+```.
 ├── Dockerfile
 ├── requirements.txt
 ├── .env
@@ -65,12 +65,13 @@ Docker installed on your machine
     ├── utils.py          # helper functions (rate limiting, db helpers)
     ├── vector_store.py   # LangChain retrieval + QA setup
     └── middleware.py     # API key auth middleware
-
+```
 
 ### Local Running (without Docker)
+```
 python -m venv venv
 source venv/bin/activate  # or `venv\Scripts\activate` on Windows
 pip install -r requirements.txt
 uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
-
+```
 Access docs at http://127.0.0.1:8000/docs.

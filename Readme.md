@@ -1,10 +1,10 @@
-# 🧠 RAG Chat Microservice
+# RAG Chat Microservice
 
 A lightweight FastAPI + SQLite microservice with Retrieval-Augmented Generation (RAG) logic using LangChain and AWS Bedrock. Fully containerized with Docker.
 
 ---
 
-## 🚀 Features
+## Features
 
 - Create, list, rename, favorite, delete chat sessions  
 - Add and retrieve messages per session  
@@ -15,7 +15,7 @@ A lightweight FastAPI + SQLite microservice with Retrieval-Augmented Generat
 
 ---
 
-## 📦 Docker Setup
+## Docker Setup
 
 ### Build the Docker image
 ```bash
